@@ -20,7 +20,7 @@ alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'
 
 direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
 text = input("Type your message:\n").lower()
-shift = int(input("Select any shift number between 1-48 :\n"))
+shift = int(input("Select any shift number between 1-29 :\n"))
 
 def encrypt(plain_text, shift_amount):
   cipher_text = ""
